@@ -1,0 +1,19 @@
+.rodape{
+    background-color: #292033;
+    padding: 20px 0;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.rodape h1{
+    font-size: 18px;
+}
+
+.rodape img{
+border-radius: 50%;
+height: 25px;
+width: 25px;
+}
+
+.caixa_01{
+}

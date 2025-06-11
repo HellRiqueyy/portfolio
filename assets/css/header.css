@@ -1,0 +1,77 @@
+header {
+    background-color: #995cd0;
+    padding: 20px 0px;
+}
+
+/*roxo #961cad azul #523874*/
+.caixa {
+    position: relative;
+    width: 940px;
+    height: 100px;
+}
+
+.caixa h1 {
+    padding-left: 45px;
+    font-size: 35px;
+    transition: all 0.3s ease;
+}
+
+.caixa h1:hover {
+    color: #adf182;
+    cursor: none;
+    transform: scale(1.02);
+    text-shadow: 0 0 5px #c7fba5, 0 0 10px #c7fba5, 0 0 20px #c7fba5;
+}
+
+.caixa h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #c7fba5;
+    transition: width 0.3s ease;
+    box-shadow: 0 0 5px #c7fba5, 0 0 10px #c7fba5, 0 0 20px #c7fba5;
+}
+
+.caixa h1:hover::after {
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    padding-left: 44%;
+    bottom: -10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+nav li {
+    position: relative;
+}
+
+/*cores verde neon #adf182
+        neon claro #c7fba5
+        */
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #87ed48;
+    font-weight: bold;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #adf182;
+    cursor: pointer;
+    transform: scale(1.02);
+    text-shadow: 0 0 5px #c7fba5, 0 0 10px #c7fba5, 0 0 20px #c7fba5;
+}

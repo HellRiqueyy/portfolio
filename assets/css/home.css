@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #f5f5f5;
+    background-color: rgb(28, 24, 44);
+}
+
+a{
+    text-decoration: none;
+    color: #8edf5f;
+}
+
+/* rgb(51, 43, 82)*/
+h1 {
+    color: #8edf5f;
+    text-align: center;
+}
+
+.categoria img {
+    padding-top: 3em;
+    height: 300px;
+    width: 300px;
+}
+
+
+.categoria {
+    background-color: rgb(28, 24, 44);
+    padding: 1em 25%;
+    line-height: 1.5em;
+    transition: all 0.3s ease;
+}
+
+.categoria:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 5px #c7fba5;
+}
+
+.projeto {
+    background-color: #ffffff00;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.projeto:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 5px #c7fba5;
+}
