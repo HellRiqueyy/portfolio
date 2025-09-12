@@ -16,7 +16,7 @@ Baixe ou clone o projeto, basta utilizar seu navegador de preferência para abri
 
 ### Estrutura de pastas
 
-📂 loginECadastro
+📂 loginECadastro\
 ├── asset/img\
 ├── css\
 ├── index.html\
