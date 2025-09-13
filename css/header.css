@@ -11,7 +11,7 @@ header {
 }
 
 .caixa h1 {
-    padding-left: 45px;
+    margin: auto;
     font-size: 35px;
     transition: all 0.3s ease;
 }
@@ -41,7 +41,7 @@ header {
 
 nav {
     position: absolute;
-    padding-left: 44%;
+align-self: center;
     bottom: -10px;
 }
 
