@@ -3,6 +3,7 @@
     padding: 20px 0;
     margin-top: 50px;
     justify-content: space-around;
+    text-align: center;
 }
 
 .rodape h1{
@@ -10,10 +11,11 @@
 }
 
 .rodape img{
-border-radius: 50%;
 height: 25px;
 width: 25px;
+margin: 10px;
 }
 
 .caixa_01{
+
 }
