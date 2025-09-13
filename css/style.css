@@ -39,6 +39,7 @@ h1 {
     background-color: #ffffff00;
     position: relative;
     transition: all 0.3s ease;
+    padding: 1px 1em;
 }
 
 .projeto:hover {
