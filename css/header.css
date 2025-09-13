@@ -8,12 +8,14 @@ header {
     position: relative;
     width: 940px;
     height: 100px;
+
 }
 
 .caixa h1 {
     margin: auto;
     font-size: 35px;
     transition: all 0.3s ease;
+
 }
 
 .caixa h1:hover {
@@ -41,8 +43,9 @@ header {
 
 nav {
     position: absolute;
-align-self: center;
+    align-self: center;
     bottom: -10px;
+    margin-left: 37.8%;
 }
 
 nav ul {
