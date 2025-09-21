@@ -3,17 +3,21 @@ header {
     padding: 20px 0px;
 }
 
-/*roxo #961cad azul #523874*/
 .caixa {
     position: relative;
-    width: 940px;
-    height: 100px;
-
+    /* CENTRALIZAÇÃO HORIZONTAL: Largura flexível + Margem automática */
+    max-width: 58.75rem;
+    /* Máximo de 940px */
+    width: 90%;
+    /* Ocupa 90% da tela em dispositivos menores */
+    height: 6.25rem;
+    margin: 0 auto;
+    /* Centraliza a caixa na tela */
 }
 
 .caixa h1 {
     margin: auto;
-    font-size: 35px;
+    font-size: 2em;
     transition: all 0.3s ease;
 
 }
@@ -29,7 +33,7 @@ header {
     content: '';
     position: absolute;
     bottom: -5px;
-    left: 0;
+    left: 2%;
     width: 0;
     height: 2px;
     background-color: #c7fba5;
@@ -41,11 +45,18 @@ header {
     width: 100%;
 }
 
-nav {
-    position: absolute;
-    align-self: center;
-    bottom: -10px;
-    margin-left: 28%;
+.caixa {
+    position: relative;
+    /* Mude a largura fixa para uma largura máxima para ser responsiva */
+    max-width: 58.75rem;
+    /* 940px / 16 = 58.75rem */
+    width: 90%;
+    /* Adiciona largura relativa para telas menores */
+    height: 6.25rem;
+    /* 100px / 16 = 6.25rem (Convertido da sua última solicitação) */
+
+    /* Centraliza a caixa horizontalmente */
+    margin: 0 auto;
 }
 
 nav ul {
@@ -53,7 +64,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 nav li {
@@ -68,7 +79,7 @@ nav a {
     text-decoration: none;
     color: #87ed48;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
     transition: all 0.3s ease;
 }
 
@@ -77,4 +88,37 @@ nav a:hover {
     cursor: pointer;
     transform: scale(1.02);
     text-shadow: 0 0 5px #c7fba5, 0 0 10px #c7fba5, 0 0 20px #c7fba5;
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        /* Remove a centralização absoluta para dar espaço ao menu empilhado */
+        position: static;
+        margin: 0 auto;
+        padding-top: 10px;
+        /* Adiciona um espaço extra se a caixa for muito pequena */
+    }
+
+    .caixa {
+        /* Para telas pequenas, ajuste a altura da caixa para acomodar o menu empilhado */
+        height: auto;
+    }
+
+    nav ul {
+        /* Altera a direção para empilhar os itens */
+        flex-direction: column;
+
+        /* Reduz o espaçamento entre os itens empilhados */
+        gap: 10px;
+
+        /* Centraliza os itens empilhados (opcional, mas recomendado) */
+        padding: 0;
+        align-items: center;
+    }
+
+    /* Reduza o tamanho da fonte para que os links caibam melhor */
+    nav a {
+        font-size: 1.1rem;
+    }
 }
