@@ -10,6 +10,7 @@ Projeto feito com fim de desenvolver um protiflouo pessoal como modo de aprendiz
 ### Tecnologias Utilizadas
 - HTML5
 - CSS
+- JavaScript
 
 ### Como executar o projeto
 Baixe ou clone o projeto, basta utilizar seu navegador de preferência para abrir o arquivo index.html e visualizar a página.
@@ -20,6 +21,7 @@ Baixe ou clone o projeto, basta utilizar seu navegador de preferência para abri
 ├── asset/img\
 ├── css\
 ├── index.html\
+├── script.js\
 ├── README.md
 
 <img src="https://pt.quizur.com/_image?href=https%3A%2F%2Fimg.quizur.com%2Ff%2Fimg62bce8f30f9405.32025816.jpg%3FlastEdited%3D1656547574&w=400&h=400&f=webp" style = "width: 300px; height: 300px ;border-radius:50%; ">
