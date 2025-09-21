@@ -3,6 +3,7 @@ body {
     font-size: 20px;
     color: #f5f5f5;
     background-color: rgb(28, 24, 44);
+
 }
 
 a{
@@ -16,10 +17,9 @@ h1 {
     text-align: center;
 }
 
-.categoria img {
-    padding-top: 3em;
-    height: 300px;
-    width: 300px;
+#loading-text{
+    font-size:  1.5em;
+ 
 }
 
 

@@ -1,13 +1,20 @@
 
-  .card{
-  width: 200px;
-  height: 250px;
-  margin: 1rem auto;
-  perspective: 1000px;
-  padding-bottom: 1.5em ;
-  
+.card {
+    /* Dimensões convertidas de PX para REM (base 16px) */
+    width: 12.5rem;   /* 200px / 16 = 12.5rem */
+    height: 15.625rem; /* 250px / 16 = 15.625rem */
+
+    /* Propriedades existentes */
+    margin: 1rem auto;
+    perspective: 1000px;
+    padding-bottom: 1.5em; /* Mantive em (unidade relativa ao font-size do .card) */
 }
-.card img{
+
+.card img {
+    /* Dimensões convertidas de PX para REM (base 16px) */
+    width: 18.75rem;  /* 300px / 16 = 18.75rem */
+    height: 18.75rem; /* 300px / 16 = 18.75rem */
+}.card img{
   width: 300px;
   height: 300px;
 }
